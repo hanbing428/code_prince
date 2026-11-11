@@ -1,0 +1,26 @@
+{
+	"pages": [
+		{ "path": "pages/index/index", "style": { "navigationBarTitleText": "念念 · 宠物纪念" } },
+		{ "path": "pages/mine/index", "style": { "navigationBarTitleText": "我的" } },
+		{ "path": "pages/memorial/detail", "style": { "navigationBarTitleText": "一份长久的想念" } },
+		{ "path": "pages/memorial/form", "style": { "navigationBarTitleText": "珍藏一份陪伴" } },
+		{ "path": "pages/memory/form", "style": { "navigationBarTitleText": "写下回忆" } },
+		{ "path": "pages/admin/index", "style": { "navigationBarTitleText": "内容管理 · 本地演示" } }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "念念",
+		"navigationBarBackgroundColor": "#F7F6F0",
+		"backgroundColor": "#F7F6F0"
+	},
+	"tabBar": {
+		"color": "#858B83",
+		"selectedColor": "#426A57",
+		"backgroundColor": "#FFFEF9",
+		"borderStyle": "white",
+		"list": [
+			{ "pagePath": "pages/index/index", "text": "纪念" },
+			{ "pagePath": "pages/mine/index", "text": "我的" }
+		]
+	}
+}

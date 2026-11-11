@@ -1,0 +1,6 @@
+interface:
+  display_name: "宠物纪念项目工作流"
+  short_description: "按项目约定完成宠物云祭奠小程序的需求、开发、模拟接口验证与进度续接"
+  default_prompt: "使用 $pet-system-workflow 读取项目规则与当前进度，完成本次任务并验证受影响的功能。"
+policy:
+  allow_implicit_invocation: true
